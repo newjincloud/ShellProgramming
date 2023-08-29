@@ -1,0 +1,49 @@
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+#
+# Sfecific configuration
+#
+export PS1='\[\e[34;1m\][\u@\h\[\e[33;1m\] \w]\$ \[\e[m\]'
+alias c='clear'
+alias vi='/usr/bin/vim'
+alias df='df -hT'
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+#
+# VSCode Alias
+#
+alias code='code --user-data-dir ~/vscode --no-sandbox'
+alias vscode='code'
+
+#
+# Shell Script Alias
+#
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/root/bin:/root/shell:/root/shell:/root/shell:/root/shell:/root/shell:/root/shell:/root/shell:/root/shell
+# alias aaa='echo "#!/bin/bash" > /root/shell/$1'
+alias bbb='chmod 700 /root/shell/*.sh'
+
+#
+# DNS Server Alias
+#
+alias named.conf='vi /etc/named.conf'
+alias named.rfc1912.zones='vi /etc/named.rfc1912.zones' 
+alias DNS='cd /var/named'
+alias dnslog='tail -f /var/log/messages'
+
+#
+# Firewall Alias
+#
+alias fwcmd='firewall-cmd --permanent'
+alias fwlist='firewall-cmd --list-all'
+alias fwreload='firewall-cmd --reload'

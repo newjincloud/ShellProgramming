@@ -1,0 +1,17 @@
+#!/bin/bash
+# ex) mkfile /test/file1 100
+if [ $# -ne 2 ] ; then
+	echo "Usage: $0 <file> <size>"
+	exit 1
+fi
+FILE1=$1
+FILESIZE=$2
+
+dd if=/dev/zero of=$FILE1 bs=1M count=$FILESIZE >/dev/null 2>&1
+if [ $? -eq 0 ] ; then
+	echo "[  OK  ] $FILE1 생성 성공 "
+	ls -lh $FILE1
+else
+	echo "[ FAIL ] $FILE1 생성 실패 "
+fi
+

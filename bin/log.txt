@@ -1,0 +1,280 @@
+Trying 192.168.10.10...
+Connected to 192.168.10.10.
+Escape character is '^]'.
+
+Kernel 4.18.0-492.el8.x86_64 on an x86_64
+main login: root
+Password: 
+Last login: Mon Aug 28 14:36:24 on tty2
+[root@main ~]# cat /var/log/messages
+Aug 28 15:21:01 main systemd[1]: Reloading Berkeley Internet Name Domain (DNS).
+Aug 28 15:21:01 main named[1100]: received control channel command 'reload'
+Aug 28 15:21:01 main named[1100]: loading configuration from '/etc/named.conf'
+Aug 28 15:21:01 main named[1100]: unable to open '/etc/bind.keys'; using built-in keys instead
+Aug 28 15:21:01 main named[1100]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Aug 28 15:21:01 main named[1100]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Aug 28 15:21:01 main named[1100]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Aug 28 15:21:01 main named[1100]: using default UDP/IPv4 port range: [32768, 60999]
+Aug 28 15:21:01 main named[1100]: using default UDP/IPv6 port range: [32768, 60999]
+Aug 28 15:21:01 main named[1100]: sizing zone task pool based on 8 zones
+Aug 28 15:21:01 main named[1100]: none:105: 'max-cache-size 90%' - setting to 6899MB (out of 7666MB)
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 10.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 127.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: D.F.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 8.E.F.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 9.E.F.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: A.E.F.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: B.E.F.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: EMPTY.AS112.ARPA
+Aug 28 15:21:01 main named[1100]: automatic empty zone: HOME.ARPA
+Aug 28 15:21:01 main named[1100]: none:105: 'max-cache-size 90%' - setting to 6899MB (out of 7666MB)
+Aug 28 15:21:01 main named[1100]: configuring command channel from '/etc/rndc.key'
+Aug 28 15:21:01 main named[1100]: configuring command channel from '/etc/rndc.key'
+Aug 28 15:21:01 main named[1100]: reloading configuration succeeded
+Aug 28 15:21:01 main named[1100]: reloading zones succeeded
+Aug 28 15:21:01 main sh[8845]: server reload successful
+Aug 28 15:21:01 main systemd[1]: Reloaded Berkeley Internet Name Domain (DNS).
+Aug 28 15:21:01 main named[1100]: managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+Aug 28 15:21:02 main named[1100]: all zones loaded
+Aug 28 15:21:02 main named[1100]: running
+Aug 28 15:22:10 main systemd[1]: Starting dnf makecache...
+Aug 28 15:22:11 main dnf[8886]: CentOS Stream 8 - AppStream                     4.4 kB/s | 4.4 kB     00:01
+Aug 28 15:22:12 main dnf[8886]: CentOS Stream 8 - AppStream                      24 MB/s |  33 MB     00:01
+Aug 28 15:22:19 main dnf[8886]: CentOS Stream 8 - BaseOS                        6.4 kB/s | 3.9 kB     00:00
+Aug 28 15:22:20 main dnf[8886]: CentOS Stream 8 - BaseOS                         30 MB/s |  46 MB     00:01
+Aug 28 15:22:28 main dnf[8886]: CentOS Stream 8 - Extras                        6.8 kB/s | 2.9 kB     00:00
+Aug 28 15:22:28 main dnf[8886]: CentOS Stream 8 - Extras common packages        7.5 kB/s | 3.0 kB     00:00
+Aug 28 15:22:29 main dnf[8886]: Extra Packages for Enterprise Linux 8 - x86_64   35 kB/s |  48 kB     00:01
+Aug 28 15:30:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 15:30:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 15:30:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 15:31:02 main rsyslogd[1207]: [origin software="rsyslogd" swVersion="8.2102.0-13.el8" x-pid="1207" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Aug 28 15:34:47 main cupsd[1043]: REQUEST localhost - - "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
+Aug 28 15:36:10 main named[1100]: managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+Aug 28 15:40:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 15:40:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 15:40:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 15:43:00 main dnf[8886]: Extra Packages for Enterprise Linux 8 - x86_64  3.5 kB/s | 4.2 MB     20:30
+Aug 28 15:43:00 main dnf[8886]: Errors during downloading metadata for repository 'epel':
+Aug 28 15:43:00 main dnf[8886]:  - Curl error (28): Timeout was reached for https://repo.extreme-ix.org/epel/8/Everything/x86_64/repodata/74f10794b13b9cc8e5c616c3033114c5fcc517720982a52daf0693b91bb5460f-filelists.xml.gz [Operation too slow. Less than 1000 bytes/sec transferred the last 30 seconds]
+Aug 28 15:43:00 main dnf[8886]: 오류: Failed to download metadata for repo 'epel': Yum repo downloading error: Downloading error(s): repodata/74f10794b13b9cc8e5c616c3033114c5fcc517720982a52daf0693b91bb5460f-filelists.xml.gz - Download failed: Curl error (28): Timeout was reached for https://repo.extreme-ix.org/epel/8/Everything/x86_64/repodata/74f10794b13b9cc8e5c616c3033114c5fcc517720982a52daf0693b91bb5460f-filelists.xml.gz [Operation too slow. Less than 1000 bytes/sec transferred the last 30 seconds]
+Aug 28 15:43:00 main systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Aug 28 15:43:00 main systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Aug 28 15:43:00 main systemd[1]: Failed to start dnf makecache.
+Aug 28 15:50:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 15:50:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 15:50:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:00:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 16:00:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 16:00:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:10:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 16:10:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 16:10:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:20:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 16:20:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 16:20:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:21:01 main named[1100]: managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+Aug 28 16:30:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 16:30:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 16:30:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:33:07 main cupsd[1043]: REQUEST localhost - - "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
+Aug 28 16:36:10 main named[1100]: managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+Aug 28 16:40:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 16:40:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 16:40:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:50:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 16:50:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 16:50:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 16:53:45 main systemd[1]: fwupd.service: Succeeded.
+Aug 28 16:55:00 main journal[7133]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Aug 28 16:55:14 main journal[7133]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Aug 28 16:55:14 main org.gnome.Shell.desktop[6865]: libinput error: event2  - VirtualPS/2 VMware VMMouse: client bug: event processing lagging behind by 118ms, your system is too slow
+Aug 28 16:55:37 main dbus-daemon[985]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.350' (uid=0 pid=11110 comm="/usr/share/code/code --no-sandbox --user-data-dir ")
+Aug 28 16:55:37 main dbus-daemon[6825]: [session uid=0 pid=6825] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.79' (uid=0 pid=11110 comm="/usr/share/code/code --no-sandbox --user-data-dir ")
+Aug 28 16:55:37 main systemd[6796]: Starting Portal service...
+Aug 28 16:55:37 main dbus-daemon[6825]: [session uid=0 pid=6825] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.80' (uid=0 pid=11143 comm="/usr/libexec/xdg-desktop-portal ")
+Aug 28 16:55:37 main systemd[6796]: Starting flatpak document portal service...
+Aug 28 16:55:37 main dbus-daemon[6825]: [session uid=0 pid=6825] Successfully activated service 'org.freedesktop.portal.Documents'
+Aug 28 16:55:37 main systemd[6796]: Started flatpak document portal service.
+Aug 28 16:55:37 main dbus-daemon[6825]: [session uid=0 pid=6825] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.80' (uid=0 pid=11143 comm="/usr/libexec/xdg-desktop-portal ")
+Aug 28 16:55:37 main systemd[6796]: Starting Portal service (GTK+/GNOME implementation)...
+Aug 28 16:55:37 main dbus-daemon[6825]: [session uid=0 pid=6825] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Aug 28 16:55:37 main systemd[6796]: Started Portal service (GTK+/GNOME implementation).
+Aug 28 16:55:37 main systemd[6796]: Started Multimedia Service.
+Aug 28 16:55:37 main rtkit-daemon[990]: Successfully made thread 11198 of process 11197 (/usr/bin/pipewire) owned by '0' RT at priority 20.
+Aug 28 16:55:37 main dbus-daemon[6825]: [session uid=0 pid=6825] Successfully activated service 'org.freedesktop.portal.Desktop'
+Aug 28 16:55:37 main systemd[6796]: Started Portal service.
+Aug 28 16:55:37 main pipewire[11197]: #033[1;31m[E][000008373.328337][pipewire.c:118 open_plugin()] can't load /usr/lib64/spa-0.2/jack/libspa-jack.so: /usr/lib64/spa-0.2/jack/libspa-jack.so: cannot open shared object file: No such file or directory#033[0m
+Aug 28 16:55:37 main pipewire[11197]: #033[1;31m[E][000008373.328358][pipewire.c:254 pw_load_spa_handle()] can't load 'jack/libspa-jack': No such file or directory#033[0m
+Aug 28 16:55:37 main pipewire[11197]: #033[1;31m[E][000008373.328362][spa-device.c:144 pw_spa_device_load()] can't load device handle: No such file or directory#033[0m
+Aug 28 16:55:37 main pipewire[11197]: #033[1;31m[E][000008373.328364][module-device-factory.c:167 create_object()] can't create device: No such file or directory#033[0m
+Aug 28 16:55:37 main pipewire[11197]: #033[1;31m[E][000008373.328367][private.h:242 pw_core_resource_errorv()] resource 0x559967c92520: id:4 seq:4 res:-2 (No such file or directory) msg:"can't create device: No such file or directory"#033[0m
+Aug 28 16:55:37 main pipewire[11199]: #033[1;31m[E][000008373.328601][core.c:72 core_event_error()] core 0x55824be2ded0: proxy 0x55824be4acd0 id:4: seq:4 res:-2 (No such file or directory) msg:"can't create device: No such file or directory"#033[0m
+Aug 28 16:55:37 main pipewire[11199]: #033[1;31m[E][000008373.328611][media-session.c:1648 core_error()] error id:4 seq:4 res:-2 (No such file or directory): can't create device: No such file or directory#033[0m
+Aug 28 16:55:38 main gnome-keyring-daemon[6817]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Aug 28 16:55:40 main org.gnome.Shell.desktop[6865]: libinput error: event2  - VirtualPS/2 VMware VMMouse: client bug: event processing lagging behind by 11ms, your system is too slow
+Aug 28 16:55:54 main dbus-daemon[985]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.351' (uid=0 pid=11110 comm="/usr/share/code/code --no-sandbox --user-data-dir ")
+Aug 28 16:55:54 main systemd[1]: Starting Hostname Service...
+Aug 28 16:55:54 main dbus-daemon[985]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Aug 28 16:55:54 main systemd[1]: Started Hostname Service.
+Aug 28 16:56:02 main dbus-daemon[985]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Aug 28 16:56:36 main systemd[1]: systemd-hostnamed.service: Succeeded.
+Aug 28 16:58:37 main kernel: sh[11792]: segfault at 7ffc0b629fe4 ip 0000555f0c355700 sp 00007ffc0b629fd0 error 6 in bash[555f0c31c000+108000]
+Aug 28 16:58:37 main kernel: Code: 74 24 50 66 89 7c 24 50 48 8d ac 24 e0 01 00 00 c7 05 50 ea 2d 00 00 00 00 00 4c 89 f3 4d 89 f7 c7 05 70 ea 2d 00 fe ff ff ff <c7> 44 24 14 00 00 00 00 48 c7 04 24 c8 00 00 00 48 89 6c 24 08 4c
+Aug 28 16:58:37 main systemd[1]: Created slice system-systemd\x2dcoredump.slice.
+Aug 28 16:58:37 main systemd[1]: Started Process Core Dump (PID 11805/UID 0).
+Aug 28 16:58:37 main systemd-coredump[11806]: Resource limits disable core dumping for process 11792 (sh).
+Aug 28 16:58:37 main systemd-coredump[11806]: Process 11792 (sh) of user 0 dumped core.
+Aug 28 16:58:37 main systemd[1]: systemd-coredump@0-11805-0.service: Succeeded.
+Aug 28 16:59:08 main kernel: a.sh[11894]: segfault at 7fffdb84cff8 ip 00005596a3247df9 sp 00007fffdb84d000 error 6 in bash[5596a3217000+108000]
+Aug 28 16:59:08 main kernel: Code: ad c4 ff ff 48 8d 78 01 e8 24 99 05 00 48 89 de 48 89 c7 e8 19 c2 ff ff 48 89 c2 e9 3a ff ff ff 90 41 57 41 56 41 55 41 54 55 <53> 48 83 ec 38 48 8b 3d 03 2c 2e 00 64 48 8b 04 25 28 00 00 00 48
+Aug 28 16:59:08 main systemd[1]: Started Process Core Dump (PID 11907/UID 0).
+Aug 28 16:59:08 main systemd-coredump[11908]: Resource limits disable core dumping for process 11894 (a.sh).
+Aug 28 16:59:08 main systemd-coredump[11908]: Process 11894 (a.sh) of user 0 dumped core.
+Aug 28 16:59:08 main systemd[1]: systemd-coredump@1-11907-0.service: Succeeded.
+Aug 28 17:00:00 main systemd[1]: Starting system activity accounting tool...
+Aug 28 17:00:00 main systemd[1]: sysstat-collect.service: Succeeded.
+Aug 28 17:00:00 main systemd[1]: Started system activity accounting tool.
+Aug 28 17:05:01 main chronyd[999]: Can't synchronise: no selectable sources
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8977688) is greater than comparison timestamp (8977680).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8977688.  Working around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8977748) is greater than comparison timestamp (8977743).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8977748.  Working around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8977778) is greater than comparison timestamp (8977774).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8977778.  Working around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8977808) is greater than comparison timestamp (8977805).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:42 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8977808.  Working around...
+Aug 28 17:05:51 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8987157) is greater than comparison timestamp (8987150).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:51 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8987157.  Working around...
+Aug 28 17:05:51 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8987247) is greater than comparison timestamp (8987245).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:51 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8987247.  Working around...
+Aug 28 17:05:52 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8987308) is greater than comparison timestamp (8987307).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:52 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8987308.  Working around...
+Aug 28 17:05:52 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8988001) is greater than comparison timestamp (8987987).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:52 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8988001.  Working around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8991768) is greater than comparison timestamp (8991761).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8991768.  Working around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8991798) is greater than comparison timestamp (8991791).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8991798.  Working around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8991859) is greater than comparison timestamp (8991853).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8991859.  Working around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (8991889) is greater than comparison timestamp (8991886).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:05:56 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 8991889.  Working around...
+Aug 28 17:06:05 main chronyd[999]: Selected source 203.248.240.140 (time.bora.net)
+Aug 28 17:06:10 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9005792) is greater than comparison timestamp (9005790).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:10 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9005792.  Working around...
+Aug 28 17:06:10 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9005822) is greater than comparison timestamp (9005821).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:10 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9005822.  Working around...
+Aug 28 17:06:11 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9006306) is greater than comparison timestamp (9006283).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:11 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9006306.  Working around...
+Aug 28 17:06:14 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9010221) is greater than comparison timestamp (9010212).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:14 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9010221.  Working around...
+Aug 28 17:06:14 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9010282) is greater than comparison timestamp (9010275).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:14 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9010282.  Working around...
+Aug 28 17:06:32 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9028285) is greater than comparison timestamp (9028282).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:32 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9028285.  Working around...
+Aug 28 17:06:33 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9028346) is greater than comparison timestamp (9028345).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:06:33 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9028346.  Working around...
+Aug 28 17:07:03 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9059001) is greater than comparison timestamp (9058997).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:07:03 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9059001.  Working around...
+Aug 28 17:07:03 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9059061) is greater than comparison timestamp (9059060).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:07:03 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9059061.  Working around...
+Aug 28 17:07:05 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9060728) is greater than comparison timestamp (9060717).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:07:05 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9060728.  Working around...
+Aug 28 17:07:05 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9060789) is greater than comparison timestamp (9060780).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:07:05 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9060789.  Working around...
+Aug 28 17:07:05 main org.gnome.Shell.desktop[6865]: Window manager warning: last_user_time (9060852) is greater than comparison timestamp (9060843).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Aug 28 17:07:05 main org.gnome.Shell.desktop[6865]: Window manager warning: 0x2000003 appears to be one of the offending windows with a timestamp of 9060852.  Working around...
+Aug 28 17:07:17 main journal[7133]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Aug 28 17:07:25 main systemd[1]: Created slice system-telnet.slice.
+Aug 28 17:07:25 main systemd[1]: Started Telnet Server (192.168.10.10:55326).
+Aug 28 17:07:28 main systemd-logind[977]: New session 4 of user root.
+Aug 28 17:07:28 main systemd[1]: Started Session 4 of user root.

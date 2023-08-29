@@ -1,0 +1,13 @@
+-------------192.168.10.10 의 로그인 기록-------------------
+Trying 192.168.10.10...
+Connected to 192.168.10.10.
+Escape character is '^]'.
+
+Kernel 4.18.0-492.el8.x86_64 on an x86_64
+main login: root
+Password: 
+Last login: Mon Aug 28 17:23:20 from main
+[1m[7m#[27m[1m[0m                                                                                [0m[27m[24m[J[31m[root[00m@[34mmain [33m~][00m# [K[?2004hccat /var/log/secure | grep -i Accepted[38D[32mc[32ma[32mt[39m [4m/[4mv[4ma[4mr[4m/[4ml[4mo[4mg[4m/[4ms[4me[4mc[4mu[4mr[4me[24m[3C[32mg[32mr[32me[32mp[39m[12C[?2004l
+Aug 28 17:11:40 main sshd[13757]: [01;31m[KAccepted[m[K publickey for root from ::1 port 37380 ssh2: RSA SHA256:SDElBC8EoY4TzSxflAESxbzpFML84Z9Kvl8c2PoZ7hU
+[1m[7m#[27m[1m[0m                                                                                [0m[27m[24m[J[31m[root[00m@[34mmain [33m~][00m# [K[?2004h--------------------------------------------------
+

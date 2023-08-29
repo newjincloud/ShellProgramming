@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cat << EOF > /root/bin/$1
+#!/bin/bash
+
+EOF
+chmod 700 /root/bin/$1
